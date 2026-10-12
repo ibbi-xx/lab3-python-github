@@ -1,24 +1,24 @@
-def add(num1, num2):
+def add(num1, num2): #addiction function
     return num1 + num2
 
-def subtract(num1, num2):
+def subtract(num1, num2): #subtraction function
     return num1 - num2
 
-def multiply(num1, num2):
+def multiply(num1, num2): #multiplication function
     return num1 * num2
 
-def division(num1, num2):
+def division(num1, num2): #division function
     if num2 == 0:
         return "Number cannot be divided by 0"
     return num1 / num2
 
-def even_or_odd(num1):
+def even_or_odd(num1): #checking even or odd function
     if num1 % 2 == 0:
         return f"The number {int(num1)} is even"
     else:
         return f"The number {int(num1)} is odd"
 
-def percentage(num1, num2):
+def percentage(num1, num2): #percentage function
     if num2 == 0:
         return "Cannot calculate percentage with base zero."
     perc = (num1 / num2) * 100
